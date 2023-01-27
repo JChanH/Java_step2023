@@ -4,6 +4,10 @@ public class ThreeDPrinter {
 
 	private Object material;
 
+	public ThreeDPrinter() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Object getMaterial() {
 		return material;
 	}

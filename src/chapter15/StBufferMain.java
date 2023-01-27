@@ -6,10 +6,11 @@ public class StBufferMain {
 
 		// StringBuffer 클래스에 있는
 		StringBuffer buf = new StringBuffer(" nice day");
-		System.out.println(buf.toString()); // toString은 메개변수의 value값을 출력해준다 (본래는 주소가 나온다)
+		System.out.println(buf);
+		System.out.println(buf.toString()); // StringBuffer에서도 toString을 자동으로 해준다 (생략가능)
 		System.out.println(buf.length());
 
-		// StringBuffer의 기본 용량은 16byte = 추가 (8) = 24byte
+		// StringBuffer의 기본 용량은 16byte = 추가 (8) = 25byte
 		System.out.println(buf.capacity());
 
 		// 25를 넘어가면 허용범위가 (25~50)까지는 갖고 있는 (용량*2) +2 =50

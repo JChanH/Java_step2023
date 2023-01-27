@@ -7,12 +7,13 @@ public class ArrayClonetest {
 		int[] arr1 = { 1, 2, 3, 4, 5 };
 		int[] arr2;
 
-		arr2 = arr1.clone(); // heap데이터 값을 복사한다 (동일하게 stack에 새로운 주소를 말들어 준다)
+		arr2 = arr1.clone(); // heap데이터 값을 복사한다 (동일하게 stack에 새로운 주소를 말들어 준다) (KEY + VALUE 복사)
 
 		System.out.println("복사된 arr2 배열");
-		for (int num : arr2) {
+		for (int num : arr2) { //배열 arr2를 num으로 배열의 길이만큼 반복)
 			System.out.print(num + " ");
 		}
+		System.out.println();
 		System.out.println("복사된 arr1 배열");
 		for (int num : arr1) {
 			System.out.print(num + " ");
